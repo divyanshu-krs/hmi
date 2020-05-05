@@ -1,2 +1,2 @@
-# hmi.github.io
+# hmi
 HMI Lab Wesbite
