@@ -4,7 +4,7 @@
 	$subject = $_POST['subject']
 	$message = $_POST['message'];
 
-	$email_from = 'sdiv0.github.io/hmi;
+	$email_from = 'sdiv0.github.io/hmi';
 
 	$email_subject = "Subject: $subject.\n";
 	$email_body = "User Name: $name.\n".
