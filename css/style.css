@@ -595,6 +595,53 @@ h1, h2, h3, h4, h5,
     .site-blocks-cover .display-1 {
       font-size: 3rem; } }
 
+#banner{
+  /*background-size: auto;*/
+  background-repeat: no-repeat;
+  background-position: left 1px bottom;
+  max-width: 100%;
+  max-height: 90%;
+}
+
+.col-md-8{
+  margin-bottom: -60px;
+}
+
+.filterDiv {
+  /*float: right;*/
+  /*background-color: #2196F3;*/
+  /*color: #fff123;*/
+  width: 600px;
+  /*line-height: 50px;*/
+  /*align-content: center;*/
+  /*text-align: center;*/
+  /*margin: 5px;*/
+  /*margin-left: 400px;*/
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.btn_pr {
+  border: none;
+  outline: none;
+  padding: 10px 18px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn_pr:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.btn_pr.active {
+  background-color: #333;
+  color: white;
+}
+
 .site-block-subscribe .btn {
   padding-left: 20px;
   padding-right: 20px; }
