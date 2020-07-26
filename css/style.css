@@ -600,7 +600,7 @@ h1, h2, h3, h4, h5,
       font-size: 3rem; } }
 
 #banner{
-  /*background-size: auto;*/
+  background-size: 100% 95%;
   background-repeat: no-repeat;
   background-position: left 1px bottom;
   max-width: 100%;
