@@ -966,7 +966,7 @@ h1, h2, h3, h4, h5,
   @media (max-width: 991.98px) {
     #secondary {clear: both;}
     .slide-one-item.home-slider .owl-nav {
-      display: none; } }
+      } } /* Divyanshu  display: none; */
 
 .slide-one-item.home-slider .owl-prev {
   left: 10px !important; }
