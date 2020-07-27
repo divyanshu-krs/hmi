@@ -41,6 +41,14 @@
     .inline {
   display: inline;
 }
+
+  .paper_links a {
+  color: #333;
+}
+
+.paper_links:hover a {
+  color: rgb(105,105,105);
+}
 </style>
 
   <div class="site-wrap">
@@ -82,21 +90,20 @@
       <div class="container">
         <div class="row align-items-center">
 
-          <div class="col-2 new_logo_des">
-            
-            <img class="new_logo_des" src="images/logo/logo.png" id="header-logo" class="img-fluid" height="60" width="70">
-            <h1 class="mb-0 site-logo new_logo_des"><a href="index.html" class="text-black h2 mb-0">| HMI<span class="text-primary">.</span> </a></h1>
-            
+         <div class="col-11 col-xl-2">
+<!--             <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">Create<span class="text-primary">.</span> </a></h1>
+ -->            <a class="mb-0 site-logo" href="index.html"><img class="new_logo_des" src="images/logo/logo_hit.jpg" id="header-logo" class="img-fluid" ></a>
           </div>
-          <div class="col-5 col-md-10 d-none d-xl-block">
+
+          <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="index.html" class="nav-link">Home</a></li>
                 <li class="has-children">
-                  <a href="#research-section" class="nav-link">Research</a>
+                  <a href="project.html" class="nav-link">Research</a>
                   <ul class="dropdown">
-                    <li><a href="index.html#projects-section">Projects</a></li>
+                    <li><a href="project.html">Projects</a></li>
                     <li><a class="nav-link" href="publication.html">Publications</a></li>
                   </ul>
                 </li>
@@ -107,13 +114,13 @@
 
                 <li><a href="team.html#director-section">Director</a></li>
                     <li><a href="team.html#members-section">Members</a></li>
-                    <li><a href="team.html#alumni-section">Alumni</a></li>
+                     <li><a href="team.html#alumni-section">Alumni</a></li>
                     <li><a href="team.html#collaborator-section">Collaborators</a></li>
                   </ul>
                 </li>
 
                 <li class="has-children">
-                  <a href="#resources--section" class="nav-link">Resources</a>
+                  <a href="resources.html" class="nav-link">Resources</a>
                   <ul class="dropdown">
 
                 <li><a href="faq.html" class="nav-link">FAQ</a></li>
@@ -128,7 +135,7 @@
                 <li><a href="updates.html" class="nav-link">Updates</a></li>
                 <!-- <li><a href="#-section" class="nav-link">Contact Us</a></li> -->
                 <li class="has-children">
-                  <a href="#contact-section" class="nav-link">Let's Connect!</a>
+                  <a href="contact_us.html" class="nav-link">Let's Connect!</a>
                   <ul class="dropdown">
 
                     <li><a href="join_us.html">Join Us</a></li>
@@ -140,6 +147,7 @@
             </nav>
           </div>
 
+
           <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
 
         </div>
@@ -149,7 +157,7 @@
 
 
 
-    <div class="site-blocks-cover overlay" style="background-image: url(images/project_header/tanya_kapur_proj.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+    <div class="site-blocks-cover overlay" style="background-image: url(images/project_header/pb3.png);" data-aos="fade" data-stellar-background-ratio="0.5">
      <!-- Source of Image : https://upload.wikimedia.org/wikipedia/commons/d/d7/Research_Scene_Vector.svg -->
       <div class="container">
         <div class="row align-items-center justify-content-center text-center">
@@ -158,7 +166,7 @@
 
             <div class="row justify-content-center mb-4">
               <div class="col-md-12 text-center">
-                <h1><strong>Best Practices for Better Twitter Engagement: What small and medium-sized enterprises can learn from Top Fortune 100 companies</strong></h1>
+                <h1><strong>An Investigation of Fortune 100 Companies: Insights to improve Twitter Engagement</strong></h1>
                 <!-- <p class="lead mb-5">Free Web Template by <a href="#" target="_blank">Colorlib</a></p> -->
                 <!-- <div><a data-fancybox data-ratio="2" href="https://vimeo.com/317571768" class="btn btn-primary btn-md">Watch Video</a></div> -->
               </div>
@@ -195,10 +203,10 @@
                   <div class="col-17 mb-4">
                         <p class="text-primary lead"  > <strong>Abstract</strong></p>
 
-                        <p class="lead" style="text-align:justify;">There have been several studies in the field of Human-Robot Interaction, specifically regarding introduction of social humanoid robots in public places for various applications and purposes. These robots are used in research, education, and healthcare all over the world. In order to serve these different purposes, robot require advanced dialog and interaction capabilities to help its users. This project aims to study the social dimension of human interaction with social robots. To the best of my knowledge, previous studies have not taken the Indian population into context. So, the social dimension will be studied and explored within the Indian population. Through the results obtained I also aim to make use of this study to develop better HRI for a wide range of applications. I hope this research can serve as the ground truth, can be used for reference and as pointers for guidelines to design interactions which much more closely mimic human expectations.</p>
+                        <p class="lead" style="text-align:justify;">User engagement is an important metric to improve the connection with the users. Previous studies have analysed the utility of different Twitter parameters that increase user engagement. However, their appropriateness for user engagement has been analysed using a small number of distinct Twitter parameters and on different data sets. In addition, the effects of users’ replies on the tweets of the companies have not been analysed. In the current research, we analyse the tweets of Fortune 100 companies to assess the unified effects of parameters such as the usage of hashtags, images, mentions, emojis, text length and the sentiment of the tweet on user engagement. Using empirical analysis, we first propose an augmented engagement formula to accommodate the sentiment score of the users’ replies. Further, we perform multiple linear regression analysis to assess the effects of different parameters on the revised engagement score. We observe that the tweets with length less than 140 characters have a higher user engagement activity. Results on tweet wise analysis showed that the use of emojis while replying positively affects user engagement. In addition, the sector-wise analysis revealed that the presence of image in tweets has a positive influence on the engagement score for 66% of the sectors, followed by the hashtags, emojis, and the tweet length with 60%, 33%, and 40% sector coverage, respectively. Finally, the study provides significant recommendations that can be employed to increase user engagement.</p>
                         <br>
-
-                        <p class="text-primary lead inline" class="inline"> <strong>Student Collaborator</strong></p> <p class="lead inline">: Tanya Kapur (IIIT Delhi), Anvit Sachadev (IIIT Delhi)</p>
+                        <div class="paper_links">
+                        <p class="text-primary lead inline" class="inline"> <strong>Student Collaborator</strong></p> <p class="lead inline">:<a href="team.html#tanya-kapur" target="_blank"> Tanya Kapur (IIIT-Delhi)</a>, Anvit Sachadev (IIIT-Delhi)</p></div>
                         <!-- <br> -->
                         <!-- <p class="text-primary lead inline" class="inline"> <strong>Faculty Collaborator</strong></p> <p class="lead inline">: Pramil Panjawani (IIIT Delhi)</p> -->
                         <!-- <br> -->
@@ -490,7 +498,7 @@ Okhla Industrial Estate, Phase III, (Near Govind Puri Metro Station), New Delhi 
               <div class="col-md-3 ml-auto">
                 <h2 class="footer-heading mb-4">Features</h2>
                 <ul class="list-unstyled">
-                  <li><a href="#about-us">About Us</a></li>
+                  <li><a href="index.html#about-us">About Us</a></li>
                   <li><a href="team.html">Team</a></li>
                   
                   <li><a href="contact_us.html">Contact Us</a></li>
